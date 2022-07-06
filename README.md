@@ -4,7 +4,7 @@ Here, I try to replicate Figure 4 (just visual effects) from the ACL 2022 paper 
 
 The key challenges are:
 - Use a custom font with the pdfLaTeX compiler. The mainstream solution is to use XeLaTeX, but this is said to be slower.
-- Try some pgfplots and tikz commands. Though a python library tikzplotlib provides some functionality, the result is not ideal 
+- Try some pgfplots and tikz commands. Though a python library [tikzplotlib](https://pypi.org/project/tikzplotlib/) provides some functionality, the result is not ideal. Heavy post editing is required to achieve the desired effect. Nevertheless, the template from tikzplotlib is quite useful.
 
 Current limits are:
 - The font in Figure 4 is Calibri, and the font in Figure 3 is Gill Sans MT. I managed to make the latter font work, but with the same pipeline, Calibri produces garbled characters for unknown reasons.
